@@ -1,0 +1,18 @@
+
+
+.navbar-brand{
+    background-color: white;
+
+}
+
+.nav-link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 1.5;
+    line-height: 1.5;
+    color:darkblue
+}
+.logo{
+    width:15rem;
+    height: auto;
+}
