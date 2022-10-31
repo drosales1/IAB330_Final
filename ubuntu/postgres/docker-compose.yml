@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+    db:
+        image: "postgres:14.5-alpine"
+        container_name: postgresql-server
+        hostname: postgresql-server
+        ports:
+            - "5432:5432"
+        volumes:
+            - ./pgdata:/var/lib/postalgresql/data
+        environment:
+            - POSTGRES_USER=dbuser
+            - POSTGRES-PASSWORD=iab330_assignment
+            - POSTGRES_DB=assignment.db
+        networks:
+            - iab330
+networks:
+    iab330:
+        external: true
