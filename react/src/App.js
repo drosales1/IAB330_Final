@@ -1,4 +1,4 @@
-import React, { Component, component } from 'react';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from './Components/nav';
 import Ward from './pages/Ward';
