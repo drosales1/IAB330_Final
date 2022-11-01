@@ -7,15 +7,16 @@ import Staff from './pages/Staff';
 function App(){
   let component 
   // Value of component determines what page is populated with
+
   switch (window.location.pathname){
-    case "/":
-      component = <Ward />
-      break
     case "/ward":
       component = <Ward />
       break
     case "/staff":
       component = <Staff />
+      break
+    default: 
+    component = <Ward />
       break
   }
   return (
